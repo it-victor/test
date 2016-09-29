@@ -17,7 +17,7 @@ public class DBhepler {
 			try {
 				Class.forName(driver);
 				con = DriverManager.getConnection(url, "root", "123456");
-				System.out.print();
+				//System.out.print();
 			} catch (ClassNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();  
